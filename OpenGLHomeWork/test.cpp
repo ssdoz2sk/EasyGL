@@ -1,3 +1,4 @@
+#include <cstddef>
 #include "GL/glut.h"
 #include "EasyGL.h"
 
@@ -7,10 +8,7 @@ void myDisplay(EasyGL *easyGL)
 {
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	glLoadIdentity();
-
-	glColor3f(0.0, 0.0, 1.0);
-	glutWireTeapot(0.5);
-
+	easyGL->drawCube(5, Translate(0, 0, 0), Color(0, 0, 0));
 	glFlush();
 }
 
