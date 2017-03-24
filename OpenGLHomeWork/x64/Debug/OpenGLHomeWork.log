@@ -1,0 +1,5 @@
+﻿  test.cpp
+c:\users\jimmy\documents\github\easygl\openglhomework\test.cpp(2): fatal error C1083: 無法開啟包含檔案: 'GL/glut.h': No such file or directory
+  EasyGL.cpp
+c:\users\jimmy\documents\github\easygl\openglhomework\easygl.cpp(2): fatal error C1083: 無法開啟包含檔案: 'GL/glut.h': No such file or directory
+  正在產生程式碼...

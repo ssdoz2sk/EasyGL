@@ -7,9 +7,9 @@ public:
 	double y;
 	double z;
 	Translate() {
-		x = 0;
-		y = 0;
-		z = 0;
+		this->x = 0;
+		this->y = 0;
+		this->z = 0;
 	}
 
 	Translate(double x, double y, double z) {
